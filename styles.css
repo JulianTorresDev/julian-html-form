@@ -74,8 +74,7 @@ input[type="submit"] {
   min-height: 2.5em;
 }
 
-input[type="submit"]:hover {
-  outline: none !important;
+.submit {
   border: 2px solid rgb(0, 255, 255);
   box-shadow: 0 0 10px rgb(0, 127, 127);
   cursor: pointer;

@@ -15,27 +15,32 @@
       <select id="dropdown">
         <option value="1">Hombre</option>
         <option value="2">Mujer</option>
-        <option value="3"></option>
+        <option value="3">Prefiero no decirlo</option>
       </select>
       <label for="name" id="name-label">Name</label>
       <input type="text" id="name" placeholder="Name" required />
-      <label id="email-label">Email</label>
+      <label for="email" id="email-label">Email</label>
       <input type="email" id="email" placeholder="Email" required />
-      <label id="number-label">Age</label>
+      <label for="number" id="number-label">Age</label>
       <input
         type="number"
         id="number"
         min="10"
-        max="20"
+        max="120"
         placeholder="Age"
         required
       />
 
-      <option><input value="1" name="button" type="radio" /></option>
-      <option><input value="2" name="button" type="radio" /></option>
-
-      <option><input value="" name="button" type="checkbox" /></option>
-      <option><input value="1" name="button" type="checkbox" /></option>
+      <h3>How you find us?</h3>
+      <option>Friends<input value="1" name="button" type="radio" /></option>
+      <option><input value="2" name="button" type="radio" />Family</option>
+      <option>
+        <input value="2" name="button" type="radio" />freeCodeCamp
+      </option>
+      <option><input value="2" name="button" type="radio" />Other</option>
+      <h3>You recomend us?</h3>
+      <option><input value="1" name="button" type="checkbox" />Yes</option>
+      <option><input value="2" name="button" type="checkbox" />No</option>
 
       <textarea
         id="comments"
@@ -43,7 +48,7 @@
         name="comment"
         placeholder="Enter your comment here..."
       ></textarea>
-      <button type="submit" id="submit" class="submit-button">submit</button>
+      <button type="submit" id="submit" class="submit">submit</button>
     </form>
   </body>
 </html>
