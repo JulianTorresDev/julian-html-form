@@ -36,17 +36,18 @@ form {
   max-width: 700px;
   min-width: 350px;
   margin: 0 auto;
-  padding: 15px 15px 25px 15px;
+  padding: 15px 20px 25px 20px;
 }
 
 label {
-  display: block;
+  display: flex;
+  padding: 15px 15px 25px 15px;
+  margin: auto;
 }
 
 fieldset {
   border: none;
 }
-
 input,
 select,
 textarea {
@@ -56,17 +57,12 @@ textarea {
   font-size: 0.67em;
 }
 
-input,
-select {
-  border-radius: 5px;
-}
-
 textarea {
   min-height: 6.33em;
   resize: vertical;
 }
 
-input[type="submit"] {
+.submit {
   background-color: rgb(139, 0, 139);
   border-color: rgb(255, 215, 0);
   color: rgb(245, 255, 250);
@@ -74,16 +70,17 @@ input[type="submit"] {
   min-height: 2.5em;
 }
 
-.submit {
-  border: 2px solid rgb(0, 255, 255);
-  box-shadow: 0 0 10px rgb(0, 127, 127);
-  cursor: pointer;
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  margin-right: 0;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
 }
 
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="number"]:focus,
-select:focus {
+.text,
+.email,
+.number {
   outline: none !important;
   box-shadow: 0 0 7px rgb(0, 255, 255);
 }
@@ -93,4 +90,8 @@ select:focus {
   margin: 0 0.5em 0 0;
   min-height: unset;
   vertical-align: middle;
+}
+.input-container {
+  display: flex;
+  width: 10%;
 }
