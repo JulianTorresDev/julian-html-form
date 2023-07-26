@@ -32,9 +32,7 @@ form {
   color: rgb(245, 255, 250);
   border-radius: 5px;
   box-shadow: 0 0 10px rgb(255, 215, 0);
-  width: 60vw;
-  max-width: 700px;
-  min-width: 350px;
+  width: fit-content;
   margin: 0 auto;
   padding: 15px 20px 25px 20px;
 }
@@ -42,7 +40,7 @@ form {
 label {
   display: flex;
   padding: 15px 15px 25px 15px;
-  margin: auto;
+  width: fit-contents;
 }
 
 fieldset {
@@ -70,12 +68,13 @@ textarea {
   min-height: 2.5em;
 }
 
-.input-radio,
+.input-radio {
+  display: inline-block;
+  width: fit-content;
+}
 .input-checkbox {
   display: inline-block;
-  margin-right: 0;
-  min-height: 1.25rem;
-  min-width: 1.25rem;
+  width: fit-content;
 }
 
 .text,
@@ -93,5 +92,5 @@ textarea {
 }
 .input-container {
   display: flex;
-  width: 10%;
+  width: fit-content;
 }
