@@ -1,0 +1,19 @@
+image {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+img-div {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

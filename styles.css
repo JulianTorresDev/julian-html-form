@@ -61,11 +61,13 @@ textarea {
 }
 
 .submit {
-  background-color: rgb(139, 0, 139);
-  border-color: rgb(255, 215, 0);
-  color: rgb(245, 255, 250);
-  font-size: 1.33rem;
-  min-height: 2.5em;
+  display: block;
+  margin: 40px auto;
+  width: 40%;
+  padding: 15px;
+  font-size: 23px;
+  background: #d0d0d5;
+  border: 3px solid #3b3b4f;
 }
 
 .input-radio {
