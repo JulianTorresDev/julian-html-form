@@ -1,0 +1,16 @@
+@media screen {
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+#navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  font-family: "Exo 2", sans-serif;
+  padding: 1em;
+}
